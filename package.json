@@ -1,0 +1,38 @@
+{
+  "name": "curso-platzi-react-avanzado",
+  "version": "1.0.0",
+  "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.1.1",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0",
+    "wepack-cli": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "vercel-build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+  },
+  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme"
+}
